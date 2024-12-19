@@ -1,0 +1,244 @@
+.div_header {
+    text-align: center;
+    background-color: #ffcc00;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #1a1a1a;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container_main {
+    margin: 20px auto; /* Centraliza horizontalmente e adiciona espaço acima */
+    display: flex;
+    flex-direction: column; /* Itens organizados verticalmente */
+    align-items: center; /* Centraliza itens horizontalmente */
+    padding: 20px;
+    background-color: #262626; /* Fundo do formulário */
+    border-radius: 10px;
+    border: 2px solid #ffcc00;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    max-width: 400px; /* Limita largura máxima */
+    width: 90%; /* Adapta para dispositivos menores */
+    text-align: center;
+}
+
+.txt_container{
+    color: #ffffff;
+    
+}
+
+#txt_cont_log_h2{
+    color: #ffcc00;
+    font-size:xx-large;
+    font-weight: 700;
+}
+
+.form_label{
+    text-align: left;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 50px;
+
+}
+
+.input_login{
+    border-color: #ffffff; 
+    outline: none;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#label_senha_login{
+    margin-top: 10px;
+}
+
+#btn_acessar{
+    background-color: #ffcc00;
+    border-radius: 10%;
+    margin-top: 10px;
+}
+
+.txt_footer{
+    color: #89898a;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.responsive_image{
+    max-width: 100%;
+    height: auto;
+    border: 2px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    margin: 20px 0;
+}
+
+/* Esta css garante que a imagem do  hotspot parmaneça na mesmo posição relativa a imagem */
+.img_hotspot{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+#hotspot_banheiro{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    width: 25px;
+    height: 25px;
+    /* background amarelado semi transparente */
+    background: rgba(255, 255, 0, 0.5); 
+    border-radius: 50%;
+    /* cursor vira uma mãozinha */
+    cursor: pointer;
+    box-shadow:  0 0 15px rgba(255, 255, 0, 0.8); /* Efeito de brilho inicial */;
+    animation: glow 1.5s infinite; /* Animação de brilho */
+}
+
+#hotspot_corredor{
+    position: absolute;
+    top: 45%;
+    left: 75%;
+    width: 25px;
+    height: 25px;
+    /* background amarelado semi transparente */
+    background: rgba(255, 255, 0, 0.5); 
+    border-radius: 50%;
+    /* cursor vira uma mãozinha */
+    cursor: pointer;
+    box-shadow:  0 0 15px rgba(255, 255, 0, 0.8); /* Efeito de brilho inicial */;
+    animation: glow 1.5s infinite; /* Animação de brilho */
+}
+
+.hotspot_volta-recep{
+    position: absolute;
+    top: 66%;
+    left: 5%;
+    width: 25px;
+    height: 25px;
+    /* background amarelado semi transparente */
+    background: rgba(255, 255, 0, 0.5); 
+    border-radius: 50%;
+    /* cursor vira uma mãozinha */
+    cursor: pointer;
+    box-shadow:  0 0 15px rgba(255, 255, 0, 0.8); /* Efeito de brilho inicial */;
+    animation: glow 1.5s infinite; /* Animação de brilho */
+}
+
+.hotspot_sala_wayne{
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    width: 25px;
+    height: 25px;
+    /* background amarelado semi transparente */
+    background: rgba(255, 255, 0, 0.5); 
+    border-radius: 50%;
+    /* cursor vira uma mãozinha */
+    cursor: pointer;
+    box-shadow:  0 0 15px rgba(255, 255, 0, 0.8); /* Efeito de brilho inicial */;
+    animation: glow 1.5s infinite; /* Animação de brilho */
+}
+
+.hotspot_sala_monit{
+    position: absolute;
+    top: 69%;
+    left: 70%;
+    width: 25px;
+    height: 25px;
+    /* background amarelado semi transparente */
+    background: rgba(255, 255, 0, 0.5); 
+    border-radius: 50%;
+    /* cursor vira uma mãozinha */
+    cursor: pointer;
+    box-shadow:  0 0 15px rgba(255, 255, 0, 0.8); /* Efeito de brilho inicial */;
+    animation: glow 1.5s infinite; /* Animação de brilho */
+}
+
+.hotspot_sala_monit_p_corr{
+    position: absolute;
+    top: 86%;
+    left: 90%;
+    width: 25px;
+    height: 25px;
+    /* background amarelado semi transparente */
+    background: rgba(255, 255, 0, 0.5); 
+    border-radius: 50%;
+    /* cursor vira uma mãozinha */
+    cursor: pointer;
+    box-shadow:  0 0 15px rgba(255, 255, 0, 0.8); /* Efeito de brilho inicial */;
+    animation: glow 1.5s infinite; /* Animação de brilho */
+}
+
+.hotspot_sala_secreta{
+    position: absolute;
+    top: 40%;
+    left: 85%;
+    width: 25px;
+    height: 25px;
+    /* background amarelado semi transparente */
+    background: rgba(255, 255, 0, 0.5); 
+    border-radius: 50%;
+    /* cursor vira uma mãozinha */
+    cursor: pointer;
+    box-shadow:  0 0 15px rgba(255, 255, 0, 0.8); /* Efeito de brilho inicial */;
+    animation: glow 1.5s infinite; /* Animação de brilho */
+}
+
+.hotspot_sala_wayne_p_corr{
+    position: absolute;
+    top: 89%;
+    left: 3%;
+    width: 25px;
+    height: 25px;
+    /* background amarelado semi transparente */
+    background: rgba(255, 255, 0, 0.5); 
+    border-radius: 50%;
+    /* cursor vira uma mãozinha */
+    cursor: pointer;
+    box-shadow:  0 0 15px rgba(255, 255, 0, 0.8); /* Efeito de brilho inicial */;
+    animation: glow 1.5s infinite; /* Animação de brilho */
+}
+
+
+.hotspot_secret_p_salaWayne{
+    position: absolute;
+    top: 88%;
+    left: 90%;
+    width: 25px;
+    height: 25px;
+    /* background amarelado semi transparente */
+    background: rgba(255, 255, 0, 0.5); 
+    border-radius: 50%;
+    /* cursor vira uma mãozinha */
+    cursor: pointer;
+    box-shadow:  0 0 15px rgba(255, 255, 0, 0.8); /* Efeito de brilho inicial */;
+    animation: glow 1.5s infinite; /* Animação de brilho */
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 10px rgba(255, 255, 0, 0.8);
+    }
+    50% {
+        box-shadow: 0 0 30px rgba(255, 255, 0, 1);
+    }
+    100% {
+        box-shadow: 0 0 10px rgba(255, 255, 0, 0.8);
+    }
+}

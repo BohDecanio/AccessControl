@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sala Wayne - Indústrias Wayne</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="div_header">
+            <img src="assets/LogoWayneIndustries.png" alt="Logo Indústrias - Wayne" class="logo">
+            <h1 class="txt_h1_header">Sala Wayne</h1>
+        </div>
+    </header>
+
+    <main id="container_main">
+        <div class="img_hotspot">
+            <p class="txt_container">Ao canto inferior esquerdo retorna ao corredor. <br>No armário há uma passagem secreta.</p>
+            <img src="assets/sal_wayne.jpeg" alt="Sala Wayne" class="responsive_image">
+    
+            <!-- Hotspot para a sala secreta -->
+            <div class="hotspot_sala_secreta" onclick="irParaSalaSecreta()" title="Clique para acessar a Sala Secreta."></div>
+            <div class="hotspot_sala_wayne_p_corr" onclick="irParaCorredor()" title="Clique para acessar o corredor."></div>  
+
+        </div>
+    </main>
+
+    <footer>
+        <p class="txt_footer">© 2024 Indústrias Wayne. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

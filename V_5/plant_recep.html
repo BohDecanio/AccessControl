@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indústrias Wayne - Recepção</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="div_header">
+            <img src="assets/LogoWayneIndustries.png" alt="Logo Indústrias - Wayne" class="logo">
+            <h1 class="txt_h1_header">Mapa de Acesso</h1>
+
+        </div>
+
+    </header>
+  
+    <!-- criar planta recepção -->
+     <main id="container_main">
+        <h2 class="txt_container">Recepção</h2>
+        <p class="txt_container">É possível acessar o banheiro (a esquerda) ou o corredor (a direita).</p>
+        <div class="img_hotspot">
+            <img src="assets/Recep_IndWayne.jpeg" alt="Recepção" class="responsive_image">
+
+            <!-- hotspot para clickar e ir ao banheiro.html -->
+            <div id="hotspot_banheiro" onclick="irParaBanheiro()" title="Clique para acessar o banheiro.">
+            </div>
+
+            <!-- hotspot para clickar e ir ao corredor.html -->
+            <div id="hotspot_corredor" onclick="irParaCorredor()" title="Clique para acessar o corredor.">
+            </div>
+
+        </div>
+
+     </main>
+
+     <footer>
+        <p class="txt_footer">© 2024 Indústrias Wayne. Todos os direitos reservados.</p>
+     </footer>
+    
+     <script src="script.js"></script>
+</body>
+</html>

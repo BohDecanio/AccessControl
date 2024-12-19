@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access Control - Ind.wayne. V3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+    <header>
+        <div class="div_header">
+            <img src="assets\LogoWayneIndustries.png" alt="Logo Indústrias - Wayne" class="logo">
+
+            <h1 class="txt_h1_header">Sistema de Controle de Acesso</h1>
+        </div>
+    </header>
+
+    <main id="container_main">
+        <div id="container_login">
+            
+            <div >
+                <h2 id="txt_cont_log_h2" class="txt_container">Bem-Vindo</h2>
+                <h5 id="txt_cont_log_h5" class="txt_container">Autentique para acessar.</h5>
+            </div>
+
+            <form id="loginForm">
+                <div> 
+                    <label for="usuario" class="form_label">Usuário</label>
+                    <input id="usuario" class="input_login" type="text" placeholder="Digite o nome do usuário...">
+                </div>
+            
+                <div> 
+                    <label id="label_senha_login" for="senha" class="form_label">Senha</label>
+                    <input id="senha" class="input_login" type="password" placeholder="Digite a senha...">
+                </div>
+            
+                <button type="button" id="btn_acessar">Acessar</button>
+            </form>
+            
+
+            <h3>Cadastro de Novos Usuários</h3>
+            <form id="cadastroForm">
+                <label for="novoUsuario" class="form_label">Usuário</label>
+                <input id="novoUsuario" class="input_login" type="text" placeholder="Digite o novo usuário...">
+                <label for="novaSenha" class="form_label">Senha</label>
+                <input id="novaSenha" class="input_login" type="password" placeholder="Digite a nova senha...">
+                <label for="tipoUsuario" class="form_label">Tipo de Usuário</label>
+                <select id="tipoUsuario" class="input_login">
+                    <option value="visitante">Visitante</option>
+                    <option value="funcionario">Funcionário</option>
+                    <option value="seguranca">Segurança</option>
+                    <option value="wayne">Wayne</option>
+                </select>
+                <button type="submit" id="btn_cadastrar">Cadastrar</button>
+            </form>
+
+         </div>
+    </main>
+   
+    <footer>
+        <p class="txt_footer">© 2024 Indústrias Wayne. Todos os direitos reservados.</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
